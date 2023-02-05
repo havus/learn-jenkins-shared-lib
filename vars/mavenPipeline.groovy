@@ -1,4 +1,9 @@
-def call() {
+def call(Map config) {
+  // if config.type == 'dummy' {
+  //   // ...
+  // } else {
+  //   // pipeline {...}
+  // }
   pipeline {
     agent {
       node {
