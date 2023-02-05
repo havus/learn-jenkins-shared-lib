@@ -7,3 +7,8 @@ def sayHelloToAll(List names) {
     echo "Hi, ${name}. Welcome aboard"
   }
 }
+
+def sayHelloToPerson(Map person) {
+  echo "firstName: ${person.firstName}"
+  echo "lastName: ${person.lastName}"
+}
